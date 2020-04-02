@@ -1,0 +1,34 @@
+{
+    "name": "xmanh/laravel-module-command",
+    "description": "Laravel Module Architecture Command",
+    "keywords": [
+        "laravel",
+        "module",
+        "command"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manh NX",
+            "email": "ng.xuanmanh@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "XManh\\ModuleCommand\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XManh\\ModuleCommand\\Providers\\CommandServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
